@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    build: ../
+    environment:
+      FLAG: "flag{test_flag}"
+    ports:
+      - 80:80
